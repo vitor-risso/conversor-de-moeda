@@ -4,7 +4,8 @@
   "description": "conversor de moeda em node usando puppeteer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/vitor-risso/conversor-de-moeda/issues"
   },
-  "homepage": "https://github.com/vitor-risso/conversor-de-moeda#readme"
+  "homepage": "https://github.com/vitor-risso/conversor-de-moeda#readme",
+  "dependencies": {
+    "nodemon": "^2.0.6",
+    "puppeteer": "^5.5.0",
+    "readline-sync": "^1.4.10"
+  }
 }
