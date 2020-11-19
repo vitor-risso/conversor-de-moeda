@@ -15,3 +15,12 @@ $ cd conversor-de-moeda
 # Rodando a aplicação
 $ npm run dev
 ```
+# :computer: Technologies
+This project was made using the follow technologies:
+
+* [Node](https://nodejs.org/en/)      
+   
+
+# :rocket: Features
+
+* Convesor de moeda em node.js 
